@@ -17,40 +17,46 @@ The first report that we needed to create was a school district summary includin
 
 The following image shows the total schools, their budget, average scores and percentage and the district's students overall passing percentage.
 
+**District summary**
 ![Image_name](Images/district_summary_df.png)
 
-The school board wanted to look at the breakdown by school of the above summary to see trends and patterns for particular schools.
+The school board wanted to look at the breakdown by school of the above summary to see trends and patterns.
 
+**Per school summary**
 ![Image_name](Images/per_school_summary_df.png)
 
+Additionally, the board asked for the following data:  Both top and bottom five performing schools based on overall passing percentage; math and reading scores by grade; school performance based on budget per student, on school size and type of school. 
 
-Top five schools 
+**Top five schools**
 ![Image_name](Images/top_schools.png)
-5 less perfoming schools 
+
+**Top bottom schools** 
 ![Image_name](Images/bottom_schools.png)
 
 **math scores by grade**
-
 ![Image_name](Images/math_scores_by_grade.png)
 
 **reading scores by grade**
-
 ![Image_name](Images/reading_scores_by_grade.png)
 
-**School performance based on the budget per student**
+**Performance based on the budget per student**
 ![Image_name](Images/spending_summary.png)
 
-**School performance based on the school size**
+**Performance based on the school size**
 ![Image_name](Images/scores_by_school_size.png)
 
-**School performance based on the type of school**
+**performance based on the type of school**
 ![Image_name](Images/scores_by_school_type.png)
 
 
 
 # Challenge
 
-**district summary challenge**
+The school board noticed evidence of academic dishonesty at Thomas High School. Grades for reading and math in ninth grade may had been tampered with. They asked to remove these grades from the data and re-run the analysis. To do this I replaced all the ninth graders' scores with NaNs and kept the rest of the data unmodified. 
+
+After removing both math and reading scores of 9th grade students from THS, the passing math percentage dropped by only 2 tenths of a point, while the overall passing percentage dropped a mere 1 tenth of a point. From a district perspective, this difference may be negligible.
+
+**New district summary challenge**
 ![Image_name](Images/district_summary_challenge.png)
 
 
