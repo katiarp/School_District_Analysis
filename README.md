@@ -112,8 +112,8 @@ The following table shows a portion of the data where we can observe that scores
 ![Image_name](Images/scores_by_school_type_challenge.png)
 
 
-
-Although the average scores barely changed after removing ninth-grade scores, the drop in percentage of reading, math, and overall passing percentage was significant in Thomas High School. Other schools were unaffected, as these changes were localized at Thomas High School and only for ninth-grade; however, we see a substantial change in this particular school performance when compared to other schools.
+# Findings
+Although the average scores barely changed after removing ninth-grade scores, the drop in percentage of reading, math, and overall passing percentage was significant in Thomas High School. Other schools were unaffected, as these changes were localized at Thomas High School and only in ninth-grade; however, we see a substantial change in this particular school's performance when compared to other schools.
 
 Thus, by replacing the ninth-grade scores with NaNs the scores were affected as shown below.
 
@@ -121,7 +121,7 @@ Thus, by replacing the ninth-grade scores with NaNs the scores were affected as 
 - Reading scores in THS dropped 30.6453 percentage  points
 - Overall scores in THS dropped 25.8715 percentage  points
 
-## Replacing the ninth-grade scores
+### Replacing the ninth-grade scores
 After closely inspecting the data, replacing ninth-grade scores  had some impact in the data, especially when looking at scores by grade where we can see NaNs in ninth-grade. And when looking at the revised school summary where we see a drop in THS percentages.
 ```
 Passing Math percentage: 66.9113
@@ -129,7 +129,7 @@ Passing Reading percentage: 66.6636
 Overall passing percentage: 65.0765
 ```
 
-However, when considering only 10th, 11th and 12th grade in our analysis, the delta was of only 0.0865, 0.2902, and 0.3177 percentage points in math, reading, and overall scores respectively. Our new percentages show only a small difference compared to the original per school summary. 
+However, when considering only 10th, 11th and 12th grade in our analysis, the delta was of only 0.0865, 0.2902, and 0.3177 percentage points in math, reading, and overall scores respectively. Our *new percentages* show only a small difference compared to the original per school summary. 
 ```
 Passing Math percentage: 93.1857
 Passing Reading percentage: 97.0187
